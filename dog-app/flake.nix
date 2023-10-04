@@ -22,8 +22,8 @@
             pname = name;
             version = version;
             buildInputs = with pkgs;[
-	      darwin.apple_sdk.frameworks.WebKit
-	      darwin.libiconv
+              darwin.apple_sdk.frameworks.WebKit
+              darwin.libiconv
               dioxus-cli
             ];
           };
